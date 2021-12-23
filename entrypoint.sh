@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while ! nc -z 36.255.69.121 5432; do
+while ! nc -z db_host 5432; do
     sleep 0.1
 done
 
